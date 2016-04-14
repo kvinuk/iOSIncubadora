@@ -7,21 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AF8A2F51CB36B2600FAAA02 /* Beneficiario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8A2F01CB36B2600FAAA02 /* Beneficiario.swift */; };
+		0AF8A2F61CB36B2600FAAA02 /* TableViewCellAlumnos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8A2F11CB36B2600FAAA02 /* TableViewCellAlumnos.swift */; };
+		0AF8A2F71CB36B2600FAAA02 /* TableViewCellBeneficiarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8A2F21CB36B2600FAAA02 /* TableViewCellBeneficiarios.swift */; };
+		0AF8A2F81CB36B2600FAAA02 /* TableViewControllerAlumnos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8A2F31CB36B2600FAAA02 /* TableViewControllerAlumnos.swift */; };
+		0AF8A2F91CB36B2600FAAA02 /* ViewControllerListas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8A2F41CB36B2600FAAA02 /* ViewControllerListas.swift */; };
+		0AF8A2FB1CB36C8A00FAAA02 /* Alumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8A2FA1CB36C8A00FAAA02 /* Alumno.swift */; };
+		0AF8A3061CB3820F00FAAA02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF8A3041CB3820F00FAAA02 /* Main.storyboard */; };
+		0AF8A3081CB382B700FAAA02 /* TableViewControllerBeneficiarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8A3071CB382B700FAAA02 /* TableViewControllerBeneficiarios.swift */; };
+		581437DEB6E7E51861FE5F81 /* Pods_Incubadora_Login_y_Registro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A32DE7EDD93AAF6287A0CF /* Pods_Incubadora_Login_y_Registro.framework */; };
 		774ADE4B1CB33F79007C8E12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774ADE4A1CB33F79007C8E12 /* AppDelegate.swift */; };
 		774ADE4D1CB33F79007C8E12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774ADE4C1CB33F79007C8E12 /* ViewController.swift */; };
-		774ADE501CB33F79007C8E12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 774ADE4E1CB33F79007C8E12 /* Main.storyboard */; };
 		774ADE521CB33F79007C8E12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 774ADE511CB33F79007C8E12 /* Assets.xcassets */; };
 		774ADE551CB33F79007C8E12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 774ADE531CB33F79007C8E12 /* LaunchScreen.storyboard */; };
+		774ADE5D1CB342AA007C8E12 /* ViewControllerLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774ADE5C1CB342AA007C8E12 /* ViewControllerLogin.swift */; };
+		774ADE5F1CB342B8007C8E12 /* ViewControllerRegistro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774ADE5E1CB342B8007C8E12 /* ViewControllerRegistro.swift */; };
+		A0B1C0C01CBC436F00CE0B5C /* TableViewControllerProyectos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B1C0BF1CBC436F00CE0B5C /* TableViewControllerProyectos.swift */; };
+		A0B1C0C21CBC4DD000CE0B5C /* agregarProyectoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B1C0C11CBC4DD000CE0B5C /* agregarProyectoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AF8A2F01CB36B2600FAAA02 /* Beneficiario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beneficiario.swift; sourceTree = "<group>"; };
+		0AF8A2F11CB36B2600FAAA02 /* TableViewCellAlumnos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellAlumnos.swift; sourceTree = "<group>"; };
+		0AF8A2F21CB36B2600FAAA02 /* TableViewCellBeneficiarios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellBeneficiarios.swift; sourceTree = "<group>"; };
+		0AF8A2F31CB36B2600FAAA02 /* TableViewControllerAlumnos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerAlumnos.swift; sourceTree = "<group>"; };
+		0AF8A2F41CB36B2600FAAA02 /* ViewControllerListas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerListas.swift; sourceTree = "<group>"; };
+		0AF8A2FA1CB36C8A00FAAA02 /* Alumno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alumno.swift; sourceTree = "<group>"; };
+		0AF8A3051CB3820F00FAAA02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Incubadora Login y Registro/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		0AF8A3071CB382B700FAAA02 /* TableViewControllerBeneficiarios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerBeneficiarios.swift; sourceTree = "<group>"; };
 		774ADE471CB33F79007C8E12 /* Incubadora Login y Registro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Incubadora Login y Registro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		774ADE4A1CB33F79007C8E12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		774ADE4C1CB33F79007C8E12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		774ADE4F1CB33F79007C8E12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		774ADE511CB33F79007C8E12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		774ADE541CB33F79007C8E12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		774ADE561CB33F79007C8E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		774ADE5C1CB342AA007C8E12 /* ViewControllerLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerLogin.swift; sourceTree = "<group>"; };
+		774ADE5E1CB342B8007C8E12 /* ViewControllerRegistro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerRegistro.swift; sourceTree = "<group>"; };
+		78A32DE7EDD93AAF6287A0CF /* Pods_Incubadora_Login_y_Registro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Incubadora_Login_y_Registro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B1C0BF1CBC436F00CE0B5C /* TableViewControllerProyectos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerProyectos.swift; sourceTree = "<group>"; };
+		A0B1C0C11CBC4DD000CE0B5C /* agregarProyectoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = agregarProyectoViewController.swift; sourceTree = "<group>"; };
+		D80AB967591786700F90EDC3 /* Pods-Incubadora Login y Registro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Incubadora Login y Registro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Incubadora Login y Registro/Pods-Incubadora Login y Registro.debug.xcconfig"; sourceTree = "<group>"; };
+		E390FE40675EC75B106F9A4B /* Pods-Incubadora Login y Registro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Incubadora Login y Registro.release.xcconfig"; path = "Pods/Target Support Files/Pods-Incubadora Login y Registro/Pods-Incubadora Login y Registro.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				581437DEB6E7E51861FE5F81 /* Pods_Incubadora_Login_y_Registro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +67,8 @@
 			children = (
 				774ADE491CB33F79007C8E12 /* Incubadora Login y Registro */,
 				774ADE481CB33F79007C8E12 /* Products */,
+				F2B0D57B5F5F23A4CB10B996 /* Pods */,
+				7EDB441F40C18968F0BDC718 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +84,41 @@
 			isa = PBXGroup;
 			children = (
 				774ADE4A1CB33F79007C8E12 /* AppDelegate.swift */,
+				0AF8A2F01CB36B2600FAAA02 /* Beneficiario.swift */,
+				0AF8A2F11CB36B2600FAAA02 /* TableViewCellAlumnos.swift */,
+				0AF8A2F21CB36B2600FAAA02 /* TableViewCellBeneficiarios.swift */,
+				0AF8A2F31CB36B2600FAAA02 /* TableViewControllerAlumnos.swift */,
+				0AF8A3071CB382B700FAAA02 /* TableViewControllerBeneficiarios.swift */,
+				0AF8A2F41CB36B2600FAAA02 /* ViewControllerListas.swift */,
+				0AF8A2FA1CB36C8A00FAAA02 /* Alumno.swift */,
 				774ADE4C1CB33F79007C8E12 /* ViewController.swift */,
-				774ADE4E1CB33F79007C8E12 /* Main.storyboard */,
+				774ADE5C1CB342AA007C8E12 /* ViewControllerLogin.swift */,
+				774ADE5E1CB342B8007C8E12 /* ViewControllerRegistro.swift */,
+				0AF8A3041CB3820F00FAAA02 /* Main.storyboard */,
+				A0B1C0BF1CBC436F00CE0B5C /* TableViewControllerProyectos.swift */,
+				A0B1C0C11CBC4DD000CE0B5C /* agregarProyectoViewController.swift */,
 				774ADE511CB33F79007C8E12 /* Assets.xcassets */,
 				774ADE531CB33F79007C8E12 /* LaunchScreen.storyboard */,
 				774ADE561CB33F79007C8E12 /* Info.plist */,
 			);
 			path = "Incubadora Login y Registro";
+			sourceTree = "<group>";
+		};
+		7EDB441F40C18968F0BDC718 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78A32DE7EDD93AAF6287A0CF /* Pods_Incubadora_Login_y_Registro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2B0D57B5F5F23A4CB10B996 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D80AB967591786700F90EDC3 /* Pods-Incubadora Login y Registro.debug.xcconfig */,
+				E390FE40675EC75B106F9A4B /* Pods-Incubadora Login y Registro.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 774ADE591CB33F79007C8E12 /* Build configuration list for PBXNativeTarget "Incubadora Login y Registro" */;
 			buildPhases = (
+				4D60DC9E6909CF591762D073 /* 📦 Check Pods Manifest.lock */,
 				774ADE431CB33F79007C8E12 /* Sources */,
 				774ADE441CB33F79007C8E12 /* Frameworks */,
 				774ADE451CB33F79007C8E12 /* Resources */,
+				9BA0D0D8534FE7984C198448 /* 📦 Embed Pods Frameworks */,
+				3DD344378A13270B42C0BC3B /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,13 +182,61 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AF8A3061CB3820F00FAAA02 /* Main.storyboard in Resources */,
 				774ADE551CB33F79007C8E12 /* LaunchScreen.storyboard in Resources */,
 				774ADE521CB33F79007C8E12 /* Assets.xcassets in Resources */,
-				774ADE501CB33F79007C8E12 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DD344378A13270B42C0BC3B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Incubadora Login y Registro/Pods-Incubadora Login y Registro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D60DC9E6909CF591762D073 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9BA0D0D8534FE7984C198448 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Incubadora Login y Registro/Pods-Incubadora Login y Registro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		774ADE431CB33F79007C8E12 /* Sources */ = {
@@ -136,19 +244,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				774ADE4D1CB33F79007C8E12 /* ViewController.swift in Sources */,
+				0AF8A2FB1CB36C8A00FAAA02 /* Alumno.swift in Sources */,
+				A0B1C0C21CBC4DD000CE0B5C /* agregarProyectoViewController.swift in Sources */,
+				0AF8A3081CB382B700FAAA02 /* TableViewControllerBeneficiarios.swift in Sources */,
+				0AF8A2F51CB36B2600FAAA02 /* Beneficiario.swift in Sources */,
+				A0B1C0C01CBC436F00CE0B5C /* TableViewControllerProyectos.swift in Sources */,
+				0AF8A2F81CB36B2600FAAA02 /* TableViewControllerAlumnos.swift in Sources */,
+				774ADE5F1CB342B8007C8E12 /* ViewControllerRegistro.swift in Sources */,
+				0AF8A2F61CB36B2600FAAA02 /* TableViewCellAlumnos.swift in Sources */,
+				0AF8A2F71CB36B2600FAAA02 /* TableViewCellBeneficiarios.swift in Sources */,
 				774ADE4B1CB33F79007C8E12 /* AppDelegate.swift in Sources */,
+				774ADE5D1CB342AA007C8E12 /* ViewControllerLogin.swift in Sources */,
+				0AF8A2F91CB36B2600FAAA02 /* ViewControllerListas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		774ADE4E1CB33F79007C8E12 /* Main.storyboard */ = {
+		0AF8A3041CB3820F00FAAA02 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				774ADE4F1CB33F79007C8E12 /* Base */,
+				0AF8A3051CB3820F00FAAA02 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		774ADE531CB33F79007C8E12 /* LaunchScreen.storyboard */ = {
@@ -245,8 +365,21 @@
 		};
 		774ADE5A1CB33F79007C8E12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D80AB967591786700F90EDC3 /* Pods-Incubadora Login y Registro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Incubadora",
+					Login,
+					y,
+					Registro,
+					"$(PROJECT_DIR)/Incubadora",
+					Login,
+					y,
+					Registro,
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Incubadora Login y Registro/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "A00399692.Incubadora-Login-y-Registro";
@@ -256,8 +389,21 @@
 		};
 		774ADE5B1CB33F79007C8E12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E390FE40675EC75B106F9A4B /* Pods-Incubadora Login y Registro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Incubadora",
+					Login,
+					y,
+					Registro,
+					"$(PROJECT_DIR)/Incubadora",
+					Login,
+					y,
+					Registro,
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Incubadora Login y Registro/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "A00399692.Incubadora-Login-y-Registro";
@@ -284,6 +430,7 @@
 				774ADE5B1CB33F79007C8E12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
