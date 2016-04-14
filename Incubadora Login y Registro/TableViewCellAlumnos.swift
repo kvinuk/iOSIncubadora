@@ -11,6 +11,7 @@ import UIKit
 class TableViewCellAlumnos: UITableViewCell {
 
     @IBOutlet weak var nombreLabel : UILabel!
+    @IBOutlet weak var matriculaLabel : UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

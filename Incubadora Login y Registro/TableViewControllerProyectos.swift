@@ -7,17 +7,58 @@
 //
 
 import UIKit
+import Firebase
+
 
 class TableViewControllerProyectos: UITableViewController {
+    
+    var ref = Firebase(url:"https://resplendent-inferno-89.firebaseio.com/proyectos")
+    var nombre : String = ""
+    var proyectos = [String]()
+    var numProyectos : Int = 0
+    let datos = ["alumnos": "", "beneficiarios": ""]
+    let beneficiarios = ["beneficiarios": ""]
+    
+    //--------Funcion para agregar proyecto---------------
+    @IBAction func agregarProyecto(sender: AnyObject) {
+        let alert = UIAlertController(title: "Escribe el nombre del nuevo proyecto", message: "", preferredStyle: .Alert)
+        
+        alert.addTextFieldWithConfigurationHandler({ (textField) -> Void in
+            textField.text = ""
+        })
+        alert.addAction(UIAlertAction(title: "Guardar", style: .Default, handler: { (action) -> Void in
+            let textField = alert.textFields![0] as UITextField
+            //print(textField.text!)
+            let nuevoProyecto = [textField.text!: self.datos]
+            self.ref.updateChildValues(nuevoProyecto)
+        }))
+        proyectos = []
+        self.presentViewController(alert, animated: true, completion: nil)
+    }
+    //-------------------------------Fin de funcion de agregar proyecto ---------------
+    
+    
+    
+    @IBAction func reload(sender: AnyObject) {
+        self.tableView.reloadData()
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+    
+        
+        ref.observeEventType(.Value, withBlock: { snapshot in
+            self.numProyectos = Int(snapshot.childrenCount)
+            let enumerator = snapshot.children
+            while let rest = enumerator.nextObject() as? FDataSnapshot {
+                self.proyectos.append(rest.key)
+                //print(rest.value)
+                self.tableView.reloadData()
+            }            }, withCancelBlock: { error in
+                print(error.description)
+        })
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,67 +70,35 @@ class TableViewControllerProyectos: UITableViewController {
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return numProyectos
     }
 
-    /*
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("celdaProyectos", forIndexPath: indexPath)
 
         // Configure the cell...
-
+        cell.textLabel?.text = proyectos[indexPath.row]
         return cell
     }
-    */
-
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
-    }
-    */
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if editingStyle == .Delete {
-            // Delete the row from the data source
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-        } else if editingStyle == .Insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(tableView: UITableView, moveRowAtIndexPath fromIndexPath: NSIndexPath, toIndexPath: NSIndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
-    /*
+    
     // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "proyecto"
+        {
+            let view = segue.destinationViewController as! ViewControllerListas
+            let indexPath = tableView.indexPathForSelectedRow
+            view.nomProyecto = proyectos[indexPath!.row]
+        }
+        
     }
-    */
 
+    
+    
 }
