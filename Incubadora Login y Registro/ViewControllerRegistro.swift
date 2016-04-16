@@ -14,6 +14,8 @@ class ViewControllerRegistro: UIViewController {
     @IBOutlet weak var txtPassword: UITextField!
     @IBOutlet weak var txtRepitepw: UITextField!
     
+    var usuario = [String: String]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -50,14 +52,18 @@ class ViewControllerRegistro: UIViewController {
         
         if(sPassword == sRepitepw){
             let ref = Firebase(url: "https://resplendent-inferno-89.firebaseio.com")
+            let refUsuarios = Firebase(url: "https://resplendent-inferno-89.firebaseio.com/usuarios")
             ref.createUser(sEmail, password: sPassword,
                 withValueCompletionBlock: { error, result in
                 
                     if error != nil {
                         self.MostrarAlerta()
                     } else {
-                        let uid = result["uid"] as? String
+                        let uid = result["uid"] as! String
                         print("Successfully created user account with uid: \(uid)")
+                        let refUsuarioNuevo = refUsuarios.childByAppendingPath(uid)
+                        self.usuario = ["tipo": "alumno"]
+                        refUsuarioNuevo.updateChildValues(self.usuario)
                     }
             })
         }
