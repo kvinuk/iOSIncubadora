@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BZ2-TA-aVU">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A282b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BZ2-TA-aVU">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
     </dependencies>
     <scenes>
@@ -284,7 +284,7 @@
                                 <rect key="frame" x="0.0" y="136" width="320" height="72"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YBJ-pJ-3x5" id="eg6-OI-G8s">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="71.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="71"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Dw-Vi-LxH">
@@ -352,7 +352,7 @@
                                 <rect key="frame" x="0.0" y="136" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Myq-RQ-SXq" id="0by-df-DaL">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8tp-RL-r5h">
@@ -431,7 +431,7 @@
                                 <rect key="frame" x="0.0" y="92" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yBu-aI-LKe" id="6wc-Rt-R6z">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
@@ -463,6 +463,157 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="odA-HT-V1x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2340" y="456"/>
+        </scene>
+        <!--Alumno Staff-->
+        <scene sceneID="1OH-vH-hCN">
+            <objects>
+                <viewController title="Alumno Staff" id="03D-5U-aCM" customClass="VCMenuStaff" customModule="Incubadora_Login_y_Registro" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="INk-Qv-3Df"/>
+                        <viewControllerLayoutGuide type="bottom" id="29S-60-AzG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9Yu-xq-zoR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alumnos STAFF" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jhh-SV-1gR">
+                                <rect key="frame" x="85" y="49" width="150" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <color key="textColor" red="1" green="0.57887106249999998" blue="0.1580169122" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y53-GQ-J0y">
+                                <rect key="frame" x="71" y="269" width="179" height="30"/>
+                                <color key="backgroundColor" red="0.34626402309999998" green="0.49775698019999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Modificar proyecto">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZuE-RV-DKS">
+                                <rect key="frame" x="71" y="346" width="179" height="30"/>
+                                <color key="backgroundColor" red="0.34626402309999998" green="0.49775698019999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Generar grafico">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3E0-Hg-Id1">
+                                <rect key="frame" x="71" y="191" width="179" height="30"/>
+                                <color key="backgroundColor" red="0.34626402309999998" green="0.49775698019999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Control de asistencias">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tHO-ro-afm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1980" y="1200"/>
+        </scene>
+        <!--Admin-->
+        <scene sceneID="CvC-q6-zhe">
+            <objects>
+                <viewController title="Admin" id="odn-kk-IxN" customClass="VCMenuAdmin" customModule="Incubadora_Login_y_Registro" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Yzi-by-Msw"/>
+                        <viewControllerLayoutGuide type="bottom" id="t7j-bq-8HQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bIk-I1-pXI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSD-Rd-JrM">
+                                <rect key="frame" x="76" y="191" width="179" height="30"/>
+                                <color key="backgroundColor" red="0.34626402309999998" green="0.49775698019999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Agregar alumno">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Agt-z7-Ioj">
+                                <rect key="frame" x="76" y="269" width="179" height="30"/>
+                                <color key="backgroundColor" red="0.34626402309999998" green="0.49775698019999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Generar grafico">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="opj-4e-msE">
+                                <rect key="frame" x="76" y="346" width="179" height="30"/>
+                                <color key="backgroundColor" red="0.34626402309999998" green="0.49775698019999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Modificar proyecto">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Administrador" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n2z-cr-43W">
+                                <rect key="frame" x="94" y="50" width="133" height="23"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <color key="textColor" red="1" green="0.57887106249999998" blue="0.1580169122" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tv6-PF-cQW">
+                                <rect key="frame" x="76" y="417" width="179" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.34953951700000002" blue="0.48395050909999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Borrar proyecto">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gsg-1j-Qr1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2323" y="1200"/>
+        </scene>
+        <!--Socio Formador-->
+        <scene sceneID="ctZ-uC-mhL">
+            <objects>
+                <viewController title="Socio Formador" id="0Ou-bM-xxA" customClass="VCMenuSocios" customModule="Incubadora_Login_y_Registro" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CIK-ie-jyy"/>
+                        <viewControllerLayoutGuide type="bottom" id="NYE-He-DOX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IYP-OE-cxv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mab-4A-AJZ">
+                                <rect key="frame" x="71" y="156" width="179" height="30"/>
+                                <color key="backgroundColor" red="0.34626402309999998" green="0.49775698019999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Evaluar alumno">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cdh-OF-wXx">
+                                <rect key="frame" x="71" y="311" width="179" height="30"/>
+                                <color key="backgroundColor" red="0.34626402309999998" green="0.49775698019999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Agregar comentarios">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Socios Formadores" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTY-ft-f3M">
+                                <rect key="frame" x="72" y="54" width="176" height="23"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <color key="textColor" red="1" green="0.57887106249999998" blue="0.1580169122" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mis-ln-XWQ">
+                                <rect key="frame" x="71" y="234" width="179" height="30"/>
+                                <color key="backgroundColor" red="0.34626402309999998" green="0.49775698019999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Generar grafico">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nqH-LA-rfQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2149" y="1849"/>
         </scene>
     </scenes>
     <resources>
