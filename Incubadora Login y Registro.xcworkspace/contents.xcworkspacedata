@@ -2,6 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../VCMenuAdmin.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../VCMenuSocios.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../VCMenuStaff.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Incubadora Login y Registro">
+   </FileRef>
+   <FileRef
       location = "group:Incubadora Login y Registro.xcodeproj">
    </FileRef>
    <FileRef

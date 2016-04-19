@@ -16,6 +16,9 @@
 		0AF8A3061CB3820F00FAAA02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF8A3041CB3820F00FAAA02 /* Main.storyboard */; };
 		0AF8A3081CB382B700FAAA02 /* TableViewControllerBeneficiarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8A3071CB382B700FAAA02 /* TableViewControllerBeneficiarios.swift */; };
 		581437DEB6E7E51861FE5F81 /* Pods_Incubadora_Login_y_Registro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A32DE7EDD93AAF6287A0CF /* Pods_Incubadora_Login_y_Registro.framework */; };
+		7743913A1CC5B4A10026312C /* VCMenuAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774391391CC5B4A10026312C /* VCMenuAdmin.swift */; };
+		7743913C1CC5B4A90026312C /* VCMenuSocios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7743913B1CC5B4A90026312C /* VCMenuSocios.swift */; };
+		7743913E1CC5B4B00026312C /* VCMenuStaff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7743913D1CC5B4B00026312C /* VCMenuStaff.swift */; };
 		774ADE4B1CB33F79007C8E12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774ADE4A1CB33F79007C8E12 /* AppDelegate.swift */; };
 		774ADE4D1CB33F79007C8E12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774ADE4C1CB33F79007C8E12 /* ViewController.swift */; };
 		774ADE521CB33F79007C8E12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 774ADE511CB33F79007C8E12 /* Assets.xcassets */; };
@@ -35,6 +38,9 @@
 		0AF8A2FA1CB36C8A00FAAA02 /* Alumno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alumno.swift; sourceTree = "<group>"; };
 		0AF8A3051CB3820F00FAAA02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Incubadora Login y Registro/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		0AF8A3071CB382B700FAAA02 /* TableViewControllerBeneficiarios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerBeneficiarios.swift; sourceTree = "<group>"; };
+		774391391CC5B4A10026312C /* VCMenuAdmin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VCMenuAdmin.swift; path = ../VCMenuAdmin.swift; sourceTree = SOURCE_ROOT; };
+		7743913B1CC5B4A90026312C /* VCMenuSocios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VCMenuSocios.swift; path = ../VCMenuSocios.swift; sourceTree = SOURCE_ROOT; };
+		7743913D1CC5B4B00026312C /* VCMenuStaff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VCMenuStaff.swift; path = ../VCMenuStaff.swift; sourceTree = SOURCE_ROOT; };
 		774ADE471CB33F79007C8E12 /* Incubadora Login y Registro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Incubadora Login y Registro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		774ADE4A1CB33F79007C8E12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		774ADE4C1CB33F79007C8E12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,9 +91,12 @@
 			children = (
 				774ADE4A1CB33F79007C8E12 /* AppDelegate.swift */,
 				0AF8A2F01CB36B2600FAAA02 /* Beneficiario.swift */,
+				774391391CC5B4A10026312C /* VCMenuAdmin.swift */,
 				0AF8A2F11CB36B2600FAAA02 /* TableViewCellAlumnos.swift */,
 				0AF8A2F21CB36B2600FAAA02 /* TableViewCellBeneficiarios.swift */,
 				0AF8A2F31CB36B2600FAAA02 /* TableViewControllerAlumnos.swift */,
+				7743913D1CC5B4B00026312C /* VCMenuStaff.swift */,
+				7743913B1CC5B4A90026312C /* VCMenuSocios.swift */,
 				0AF8A3071CB382B700FAAA02 /* TableViewControllerBeneficiarios.swift */,
 				0AF8A2F41CB36B2600FAAA02 /* ViewControllerListas.swift */,
 				0AF8A2FA1CB36C8A00FAAA02 /* Alumno.swift */,
@@ -244,8 +253,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				774ADE4D1CB33F79007C8E12 /* ViewController.swift in Sources */,
+				7743913C1CC5B4A90026312C /* VCMenuSocios.swift in Sources */,
 				0AF8A2FB1CB36C8A00FAAA02 /* Alumno.swift in Sources */,
 				A0B1C0C21CBC4DD000CE0B5C /* agregarProyectoViewController.swift in Sources */,
+				7743913A1CC5B4A10026312C /* VCMenuAdmin.swift in Sources */,
 				0AF8A3081CB382B700FAAA02 /* TableViewControllerBeneficiarios.swift in Sources */,
 				0AF8A2F51CB36B2600FAAA02 /* Beneficiario.swift in Sources */,
 				A0B1C0C01CBC436F00CE0B5C /* TableViewControllerProyectos.swift in Sources */,
@@ -255,6 +266,7 @@
 				0AF8A2F71CB36B2600FAAA02 /* TableViewCellBeneficiarios.swift in Sources */,
 				774ADE4B1CB33F79007C8E12 /* AppDelegate.swift in Sources */,
 				774ADE5D1CB342AA007C8E12 /* ViewControllerLogin.swift in Sources */,
+				7743913E1CC5B4B00026312C /* VCMenuStaff.swift in Sources */,
 				0AF8A2F91CB36B2600FAAA02 /* ViewControllerListas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
